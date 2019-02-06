@@ -112,8 +112,10 @@ function LandingPage(props) {
 
         <section id="contact">
           <h2 className="titles">Contact Us</h2>
-          <div className="content">
+          <div className="content text-left">
             <p>Got a question or suggestion? We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+            <p>We would like to hear particulalry from mentors, testers and people who are familiar with the traditional financial systems of Ekub, Bachat Committees or Keh and can guide us as we implement a digital version of this financial system. We'd also love to get feedback from developers, designers and people affiliated with the financial industry.</p>
+            <p>Please use the form below to send us a message.</p>
             <div className="d-flex justify-content-center">
               <Contact />
             </div>
