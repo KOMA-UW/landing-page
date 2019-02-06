@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import './index.css';
 // import {Card, CardTitle, Row, Col, Navbar, NavItem, CardPanel} from 'react-materialize';
+import Contact from "./Contact"
 
 
 const styles = theme => ({
@@ -78,9 +79,10 @@ function LandingPage(props) {
 
           <section>
             <div>
-              <h2 className="titles">Contacts</h2>
+              <h2 className="titles">Contact Us</h2>
               <div className="content">
-                <p>Content goes here..</p>
+                <p>Got a question or suggestion? We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+                <Contact/>
               </div>
             </div>
           </section>
