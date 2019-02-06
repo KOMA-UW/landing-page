@@ -91,7 +91,7 @@ nav {
 
 section {
   overflow-y: hidden;
-  z-index: 0; /*Add this*/
+  z-index: 0; 
   padding: 6rem;
 } 
 
@@ -165,4 +165,10 @@ footer p {
 
 strong {
   font-style: italic;
+}
+
+#use_form {
+  text-align: center;
+  margin-top: 1rem;
+  padding-top: 2rem;
 }

@@ -62,8 +62,8 @@ function LandingPage(props) {
               </div>
               <div className="content">
                 <p>
-                AHOD is based on an existing financial system known as <strong>Ekub</strong> in Ethiopia, <strong>Bachat</strong> 
-                in India and Pakistan, <strong>Keh</strong> in Korea and <strong>Tong Tin</strong> in Cambodia. 
+                AHOD is based on an existing financial system known as <strong>Ekub</strong> in Ethiopia, <strong> Bachat </strong> 
+                 in India and Pakistan, <strong>Keh</strong> in Korea and <strong>Tong Tin</strong> in Cambodia. 
                 This financial system works by creating/joining a group of people who are willing to pay a fixed 
                 or adjusted amount of money every week or month in order to collect large sums of money that will 
                 be awarded to one randomly chosen member of the group. This money is interest and tax-free money that is collected by the people in that group/community. 
@@ -112,8 +112,10 @@ function LandingPage(props) {
 
         <section id="contact">
           <h2 className="titles">Contact Us</h2>
-          <div className="content">
-            <p>Got a question or suggestion? We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+          <div className="content text-left">
+            <p>Got a question or suggestion? We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p> 
+<p>We would like to hear particularly from mentors, testers, and people who are familiar with the traditional financial systems of Ekub, Bachat Committees or Keh and can guide us as we implement a digital version of this financial system. We'd also love to get feedback from developers, designers, and people affiliated with the financial & payment industry.</p>
+<p id="use_form">Please use the form below to send us a message.</p>
             <div className="d-flex justify-content-center">
               <Contact />
             </div>
