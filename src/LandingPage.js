@@ -3,7 +3,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import './index.css';
-// import {Card, CardTitle, Row, Col, Navbar, NavItem, CardPanel} from 'react-materialize';
 import Contact from "./Contact"
 
 
@@ -57,14 +56,20 @@ function LandingPage(props) {
       </div>
 
       <div className="container">
-        {/* <section id="overview">
+        <section id="overview">
               <div>
                 <h2 className="titles">WHAT IS IT?</h2>
               </div>
               <div className="content">
-                <p>Content goes here..</p>
+                <p>
+                AHOD is based on an existing financial system known as <strong>Ekub</strong> in Ethiopia, <strong>Bachat</strong> 
+                in India and Pakistan, <strong>Keh</strong> in Korea and <strong>Tong Tin</strong> in Cambodia. 
+                This financial system works by creating/joining a group of people who are willing to pay a fixed 
+                or adjusted amount of money every week or month in order to collect large sums of money that will 
+                be awarded to one randomly chosen member of the group. This money is interest and tax-free money that is collected by the people in that group/community. 
+                Thus providing financial support that eliminates a hassle and inconvenience.</p>
               </div>
-            </section> */}
+            </section>
 
         <section id="team">
 
@@ -105,7 +110,7 @@ function LandingPage(props) {
         </section>
 
 
-        <section className="contact">
+        <section id="contact">
           <h2 className="titles">Contact Us</h2>
           <div className="content">
             <p>Got a question or suggestion? We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
@@ -115,12 +120,11 @@ function LandingPage(props) {
           </div>
         </section>
 
-        <section>
+        <section id="sponsors">
           <h2 className="titles">SPONSORS</h2>
           <div className="content">
             <div className="logo_imgs">
               <img className="uw_logo" alt="uw" src="https://s3-us-west-2.amazonaws.com/uw-s3-cdn/wp-content/uploads/sites/98/2014/10/07214216/Signature_Left_Purple_RGB.png" />
-              {/* <img className="uw_logo"  alt="uw" src="https://s3-us-west-2.amazonaws.com/uw-s3-cdn/wp-content/uploads/sites/98/2014/10/07214218/Signature_Left_Gold_RGB.png"/>  */}
               <img className="ischool_logo" alt="ischool" src={require('./assets/iSchoolPrimary_RGB_Purple.png')} />
             </div>
           </div>

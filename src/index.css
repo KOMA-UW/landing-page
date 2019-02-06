@@ -4,10 +4,6 @@ h5, .card-title {
   margin-right: 1rem;
 }
 
-/* * {
-  text-align: center;
-} */
-
 footer {
   background-color: #10054fe7;
   color: white;
@@ -86,8 +82,6 @@ nav {
   top:0px;
   width: 100%;
   background-color: #e3f2fd;
-  /* background: #1a097c; */
-  /* background: #070029; */
 }
 
 .react-root .container {
@@ -98,6 +92,7 @@ nav {
 section {
   overflow-y: hidden;
   z-index: 0; /*Add this*/
+  padding: 6rem;
 } 
 
 #footer-container {
@@ -121,7 +116,7 @@ section {
 }
 
 .logo_imgs img {
-  margin: 0.5rem 3rem 0 3rem; 
+  margin: 0.5rem 0rem 0 3rem; 
 }
 
 .logo {
@@ -144,12 +139,12 @@ footer p {
   color: rgb(221, 144, 0);
 }
 
-
 .navbar-brand {
   margin-right: 10px;
   width: 5%;
   height: 10%;
 }
+
 .navbar-brand img {
   width: 30px;
   height: 30px;
@@ -160,15 +155,14 @@ footer p {
   color: white;
 }
 
-.comma_img {
-  width: 25%;
-  height: 25%;
-}
-
 .navbar-light .navbar-nav .nav-link {
   color: black;
 }
 
 .contact {
   text-align: 'left'
+}
+
+strong {
+  font-style: italic;
 }

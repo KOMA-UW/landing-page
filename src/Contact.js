@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
-import Input from '@material-ui/core/Input';
-import InputLabel from '@material-ui/core/InputLabel';
+// import Input from '@material-ui/core/Input';
+// import InputLabel from '@material-ui/core/InputLabel';
 import InputAdornment from '@material-ui/core/InputAdornment';
-import FormControl from '@material-ui/core/FormControl';
+// import FormControl from '@material-ui/core/FormControl';
 import TextField from '@material-ui/core/TextField';
-import Grid from '@material-ui/core/Grid';
+// import Grid from '@material-ui/core/Grid';
 import AccountCircle from '@material-ui/icons/AccountCircle';
 import Button from '@material-ui/core/Button';
 
@@ -66,7 +66,7 @@ class Contact extends React.Component {
 
         event.preventDefault();
         const data = this.state.message;
-        console.log(data)
+        // console.log(data)
 
         fetch(url, {
             method: 'post',
@@ -74,7 +74,7 @@ class Contact extends React.Component {
         }).then(response => {
             return response.json();
         }).then(data => {
-            console.log(data)
+            // console.log(data)
             this.setState({
                 message: {
                     name: '',
