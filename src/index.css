@@ -4,9 +4,9 @@ h5, .card-title {
   margin-right: 1rem;
 }
 
-* {
+/* * {
   text-align: center;
-}
+} */
 
 footer {
   background-color: #10054fe7;
@@ -167,4 +167,8 @@ footer p {
 
 .navbar-light .navbar-nav .nav-link {
   color: black;
+}
+
+.contact {
+  text-align: 'left'
 }
