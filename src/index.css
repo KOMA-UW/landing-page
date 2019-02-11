@@ -115,13 +115,13 @@ section {
   background: #070029;
 }
 
-.uw_logo {
+/* .uw_logo {
     width: 40%;
     margin-right:10rem; 
-}
+} */
 
 .ischool_logo {
-    width: 40%;
+    width: 50%;
     height: 30%;
 }
 
@@ -130,7 +130,7 @@ section {
 }
 
 .logo_imgs img {
-  margin: 0.5rem 0rem 0 3rem; 
+  margin: 0.5rem 0rem 0 0rem; 
 }
 
 .logo {

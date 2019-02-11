@@ -129,7 +129,7 @@ function LandingPage(props) {
           <h2 className="titles">SPONSORS</h2>
           <div className="content">
             <div className="logo_imgs">
-              <img className="uw_logo" alt="uw" src="https://s3-us-west-2.amazonaws.com/uw-s3-cdn/wp-content/uploads/sites/98/2014/10/07214216/Signature_Left_Purple_RGB.png" />
+              {/* <img className="uw_logo" alt="uw" src="https://s3-us-west-2.amazonaws.com/uw-s3-cdn/wp-content/uploads/sites/98/2014/10/07214216/Signature_Left_Purple_RGB.png" /> */}
               <img className="ischool_logo" alt="ischool" src={require('./assets/iSchoolPrimary_RGB_Purple.png')} />
             </div>
           </div>
