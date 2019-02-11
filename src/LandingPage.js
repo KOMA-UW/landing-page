@@ -22,10 +22,10 @@ function LandingPage(props) {
   return (
     <div className={classes.root}>
       <nav className="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-        <a className="navbar-brand " href="#page-top">
+        <a className="nav_brand" href="#home">
           {/* <img alt="" src={require("./assets/comma_logo.jpg")} /> */}
-          <i className="fas fa-hands"></i>
-          AllHandsOnDeck</a>
+          <i className="fa fa-hands"></i>
+          AHOD</a>
         <button className="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
           <i className="fa fa-bars"></i>
         </button>
@@ -47,7 +47,7 @@ function LandingPage(props) {
         </div>
       </nav>
 
-      <div className="jumbotron jumbotron-fluid">
+      <div className="jumbotron jumbotron-fluid "id="home">
         <div className="container">
           <h1 className="display-4">AHOD</h1>
           <p className="lead">A web platform that connects students with
@@ -62,12 +62,15 @@ function LandingPage(props) {
               </div>
               <div className="content">
                 <p>
-                AHOD is based on an existing financial system known as <strong>Ekub</strong> in Ethiopia, <strong> Bachat </strong> 
-                 in India and Pakistan, <strong>Keh</strong> in Korea and <strong>Tong Tin</strong> in Cambodia. 
+                AHOD is based on an existing financial system known as <a href="https://www.washingtonpost.com/archive/politics/1995/02/17/traditional-money-pools-buoy-immigrants-hopes/3975295a-fc15-4e91-ae88-5b0571ccdf31/?utm_term=.57d4391afad3"><strong>Ekub</strong></a> in Ethiopia, 
+                <a href="https://books.google.com/books?id=rVVSN5HMirYC&pg=PA139&lpg=PA139&dq=bachat+committee&source=bl&ots=GVvn5pIGdO&sig=ACfU3U2dP-amZMdL8KbOvMKKCKEnL0HF9A&hl=en&sa=X&ved=2ahUKEwiv6r-bp_jfAhWGi1QKHTZxAnMQ6AEwD3oECAEQAQ#v=onepage&q=bachat%20committee&f=false"><strong> Bachat </strong></a> 
+                 in India and Pakistan, <a href="https://www.washingtonpost.com/archive/local/1991/11/03/for-koreans-keh-is-key-to-success/f729bffa-04f2-4c35-af88-f6914e21f5c9/?utm_term=.b32a30b4bf40"><strong>Keh</strong></a> in Korea and <a href="https://www.cambodiadaily.com/news/when-they-lose-faith-in-banks-some-invest-in-the-tong-tin-24823/"><strong>Tong Tin</strong></a> in Cambodia. 
                 This financial system works by creating/joining a group of people who are willing to pay a fixed 
                 or adjusted amount of money every week or month in order to collect large sums of money that will 
-                be awarded to one randomly chosen member of the group. This money is interest and tax-free money that is collected by the people in that group/community. 
-                Thus providing financial support that eliminates a hassle and inconvenience.</p>
+                be awarded to one randomly selected member of the group. In the meantime, the winner of this month still has to 
+                pay his or her share of the fixed amount of money to the group until the current round has ended and a new one begins.
+                The money is interest and tax-free money that is collected by the people in that group/community. 
+                Thus providing financial support system that eliminates a hassle and inconvenience of a common financial system.</p>
               </div>
             </section>
 
@@ -111,7 +114,7 @@ function LandingPage(props) {
 
 
         <section id="contact">
-          <h2 className="titles">Contact Us</h2>
+          <h2 className="titles">CONTACT US</h2>
           <div className="content text-left">
             <p>Got a question or suggestion? We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p> 
 <p>We would like to hear particularly from mentors, testers, and people who are familiar with the traditional financial systems of Ekub, Bachat Committees or Keh and can guide us as we implement a digital version of this financial system. We'd also love to get feedback from developers, designers, and people affiliated with the financial & payment industry.</p>
