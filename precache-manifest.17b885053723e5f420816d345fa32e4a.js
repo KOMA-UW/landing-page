@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "50212341ae2645ffcefc",
-    "url": "/landing-page/static/css/main.4046a513.chunk.css"
+    "revision": "e1ea67e102cd190ebe08",
+    "url": "/landing-page/static/css/main.7c340674.chunk.css"
   },
   {
-    "revision": "50212341ae2645ffcefc",
-    "url": "/landing-page/static/js/main.50212341.chunk.js"
+    "revision": "e1ea67e102cd190ebe08",
+    "url": "/landing-page/static/js/main.e1ea67e1.chunk.js"
   },
   {
     "revision": "6b7ff0f26efbf68a5f7f",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/landing-page/static/media/clique_logo_edited.0b37f66f.png"
   },
   {
-    "revision": "3cf63ce66f4deebcb203e5fba9a0cb86",
+    "revision": "f79209a9a24c5261b592b46b73e5d922",
     "url": "/landing-page/index.html"
   }
 ];
