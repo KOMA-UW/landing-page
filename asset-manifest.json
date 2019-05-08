@@ -1,15 +1,17 @@
 {
-  "main.css": "/landing-page/static/css/main.17d32070.chunk.css",
-  "main.js": "/landing-page/static/js/main.48e01a43.chunk.js",
-  "main.js.map": "/landing-page/static/js/main.48e01a43.chunk.js.map",
+  "main.css": "/landing-page/static/css/main.2399a8be.chunk.css",
+  "main.js": "/landing-page/static/js/main.cee03a26.chunk.js",
+  "main.js.map": "/landing-page/static/js/main.cee03a26.chunk.js.map",
   "static/js/1.6b7ff0f2.chunk.js": "/landing-page/static/js/1.6b7ff0f2.chunk.js",
   "static/js/1.6b7ff0f2.chunk.js.map": "/landing-page/static/js/1.6b7ff0f2.chunk.js.map",
   "runtime~main.js": "/landing-page/static/js/runtime~main.5e502b1b.js",
   "runtime~main.js.map": "/landing-page/static/js/runtime~main.5e502b1b.js.map",
   "static/media/clique_logo_edited.png": "/landing-page/static/media/clique_logo_edited.0b37f66f.png",
+  "static/media/how.png": "/landing-page/static/media/how.1dd18ecf.png",
   "static/media/why.png": "/landing-page/static/media/why.5040db50.png",
-  "static/css/main.17d32070.chunk.css.map": "/landing-page/static/css/main.17d32070.chunk.css.map",
+  "static/media/questions.png": "/landing-page/static/media/questions.8fb8818b.png",
+  "static/css/main.2399a8be.chunk.css.map": "/landing-page/static/css/main.2399a8be.chunk.css.map",
   "index.html": "/landing-page/index.html",
-  "precache-manifest.b8011efa44380726f19c6b8dabfc27a7.js": "/landing-page/precache-manifest.b8011efa44380726f19c6b8dabfc27a7.js",
+  "precache-manifest.4d53c51e1dfcbbcf8328c689da63e05a.js": "/landing-page/precache-manifest.4d53c51e1dfcbbcf8328c689da63e05a.js",
   "service-worker.js": "/landing-page/service-worker.js"
 }

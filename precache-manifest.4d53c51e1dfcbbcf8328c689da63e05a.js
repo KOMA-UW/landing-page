@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "48e01a434181ca239051",
-    "url": "/landing-page/static/css/main.17d32070.chunk.css"
+    "revision": "cee03a2656dab4ce1133",
+    "url": "/landing-page/static/css/main.2399a8be.chunk.css"
   },
   {
-    "revision": "48e01a434181ca239051",
-    "url": "/landing-page/static/js/main.48e01a43.chunk.js"
+    "revision": "cee03a2656dab4ce1133",
+    "url": "/landing-page/static/js/main.cee03a26.chunk.js"
   },
   {
     "revision": "6b7ff0f26efbf68a5f7f",
@@ -20,11 +20,19 @@ self.__precacheManifest = [
     "url": "/landing-page/static/media/clique_logo_edited.0b37f66f.png"
   },
   {
+    "revision": "1dd18ecffd1843d5f665a7a76ff24ea9",
+    "url": "/landing-page/static/media/how.1dd18ecf.png"
+  },
+  {
     "revision": "5040db50e0d998720f092d82939ac0d1",
     "url": "/landing-page/static/media/why.5040db50.png"
   },
   {
-    "revision": "f5cb337bbaaadefc3fd2d27db0cb99f8",
+    "revision": "8fb8818becbcb22a6d217195c2250c65",
+    "url": "/landing-page/static/media/questions.8fb8818b.png"
+  },
+  {
+    "revision": "addc7a564f24763728fad0e239937b3f",
     "url": "/landing-page/index.html"
   }
 ];
